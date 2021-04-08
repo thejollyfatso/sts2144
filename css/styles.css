@@ -1,0 +1,275 @@
+/* nav bar */
+.navbar {
+    margin-bottom: 3rem;
+}
+
+.navbar-brand {
+    font-family: Monoton;
+}
+
+/* title */
+#title {
+    background-color: #333333;
+    padding: 1% 5% 5%;
+}
+
+.dl-button {
+    margin: 1rem auto;
+}
+
+.edit-bg {
+    border-radius: 100%;
+}
+
+.title-img {
+    height: 25rem;
+    margin-bottom: 5%;
+}
+
+/* features */
+#features {
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+}
+
+.my-ico {
+    color: #333333;
+    margin-bottom: 1rem;
+}
+
+.my-ico:hover {
+    color: #333333d3;
+}
+
+/* testimonials */
+#testimonials {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 7% 15% 5%;
+    text-align: center;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    height: 5rem;
+}
+
+/* press */
+#press {
+    background-color: #333333;
+    padding: 5% 15%;
+}
+
+.press-img {
+    height: 2rem;
+    margin-right: 2%;
+}
+
+/* pricing */
+#pricing {
+    padding: 7% 10%;
+    text-align: center;
+}
+
+#pricing h2 {
+    font-family: Bebas Neue;
+    font-size: 4.5rem;
+}
+
+.product-info {
+    text-align: left;
+}
+
+.product-cards h5 {
+    font-family: Megrim;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.my-card-img {
+    margin: auto;
+    margin-top: 2%;
+    border-style: solid;
+    border-color: #333333;
+    border-left: 1rem;
+    border-bottom: 1rem;
+}
+
+/* cta */
+#cta {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 7% 15%;
+    line-height: 6.5rem;
+    text-align: center;
+}
+
+#cta h3 {
+    font-family: Bebas Neue;
+    font-weight: lighter;
+    font-size: 4rem;
+}
+
+#footer {
+    padding: 4% 15% 0%;
+    text-align: center;
+}
+
+
+/********** Tags **********/
+body {
+    font-family: Raleway;
+}
+
+h1 {
+    font-family: Bebas Neue;
+    font-weight: bold;
+    font-size: 4.5rem;
+    color: #ffffff;
+}
+
+h3 {
+    font-weight: bolder;
+}
+
+p {
+    color: grey;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+/******** .Classes ********/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+/********** #IDs **********/
+
+
+
+
+/*************** Media Query *******************/
+
+@media (max-width: 992px){
+    body {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    /* title */
+
+    .title-img {
+        height: 18.75rem;
+    }
+
+    /*features*/
+
+    .feature-box{
+        width: 70%;
+        margin: auto;
+    }
+
+    /* testimonials */
+    .testimonial-image {
+        height: 3rem;
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    #testimonials {
+        padding: 7% 10% 5%;
+    }
+
+    #pricing h2 {
+        font-size: 3rem;
+    }
+
+}
+
+
+
+/****** team page **********/
+#team-body {
+    background-color: #333333;
+    text-align: center;
+}
+
+#team {
+    padding: 0 15% 7%;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+#team-title {
+    width: auto;
+    margin: auto;
+    font-family: Bebas Neue;
+    font-size: 6.25rem;
+}
+
+.founder {
+    height: 12.5rem;
+    border-radius: 100%;
+}
+
+.founder-name {
+    font-family: Bowlby One SC;
+    position: absolute;
+    top: 11.25rem;
+    width: 80%;
+    font-size: 1.5rem;
+    left: 10%; right: 10%;
+}
+
+.founder-role {
+    margin-top: 5%;
+    font-size: 1rem;
+}
+
+.founder-info {
+    font-style: italic;
+}
+
+#apply {
+    padding: 7% 15%;
+    background-color: #ffffff;
+}
+
+#apply-title, #apply-form {
+    color: #333333;
+}
+
+#apply-form {
+    text-align: left;
+}
