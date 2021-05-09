@@ -69,12 +69,12 @@
 }
 
 /* pricing */
-#pricing {
+#main {
     padding: 7% 10%;
     text-align: center;
 }
 
-#pricing h2 {
+#main h2 {
     font-family: Bebas Neue;
     font-size: 4.5rem;
 }
